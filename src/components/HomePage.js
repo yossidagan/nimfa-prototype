@@ -7,6 +7,10 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import image1 from "../images/img-01.JPG"
 import Slider from "react-slick";
 
+// import button from "../images/button-01.png"
+
+import "../style/HomePage.css"
+
 import {
     Carousel,
     CarouselItem,
@@ -15,6 +19,7 @@ import {
     CarouselCaption
 } from 'reactstrap';
 
+const button = require("../images/button-01.png")
 
 const slide01 = require("../images/img-01.JPG")
 const slide02 = require("../images/img-02.JPG")
@@ -103,16 +108,7 @@ class HomePage extends Component {
         });
 
         return (
-            <div>
-                {/* <style>
-              {
-                `.custom-tag {
-                    max-width: 100%;
-                    height: 500px;
-                    background: black;
-                  }`
-              }
-            </style> */}
+            <div id="home-page">
                 <Carousel
                     activeIndex={activeIndex}
                     next={this.next}
@@ -123,6 +119,13 @@ class HomePage extends Component {
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
+                <Link to="/contact-form">
+                <div className="button">
+                    <img src={button} />
+                    <h4>LEAVE DETAILS</h4>
+
+                </div>
+                </Link>
             </div>
         );
     }

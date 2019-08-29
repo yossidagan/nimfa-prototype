@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
+import ContactForm from './components/ContactForm';
 
 @observer
 class App extends Component {
@@ -15,7 +16,9 @@ class App extends Component {
         <div className="App">
           <Header />
           <Navbar />
-          <HomePage />
+          <Route exact path='/' render={() => <HomePage />} />
+          <Route exact path='/contact-form' render={() => <ContactForm />} />
+
         </div>
       </Router>
     )

@@ -1,26 +1,25 @@
 #navbar {
-    display: grid ; 
-    margin-top: 4%;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 2fr 
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 2fr
 }
 
 .navText {
-
-        font-size: 80%;
-        font-family: "Montserrat";
-        color: rgb(36, 37, 37);
-        text-transform: uppercase;
-        line-height: 1.538;
-        font-weight: bolder;
-    
+    font-size: 80%;
+    font-family: "Montserrat";
+    color: rgb(36, 37, 37);
+    text-transform: uppercase;
+    line-height: 1.538;
+    font-weight: bolder;
 }
 
-.logo { 
+.logo {
     height: 40%;
     margin-left: 5%;
 }
 
-.search { 
+.search {
     height: 80%;
     width: 45%
 }
+
