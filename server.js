@@ -4,7 +4,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const api = require('./server/routes/api')
 // const mongoose = require('mongoose')
-// const axios = require('axios')
+const axios = require('axios')
 
 
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nimpha-website", {

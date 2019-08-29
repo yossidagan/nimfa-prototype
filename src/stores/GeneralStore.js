@@ -10,6 +10,10 @@ const API_URL = 'http://localhost:8000'
 
 export class GeneralStore {
 
+    @action sendDetails = async (clientDetails) => {
+        console.log(clientDetails)
+        await axios.post(`${API_URL}/sendMail`, clientDetails)
 
+    }
 }
 
