@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import HomePage from './components/HomePage';
 import ContactForm from './components/ContactForm';
 import MidHeader from './components/MidHeader';
+import Branches from './components/Branches';
 
 @observer
 class App extends Component {
@@ -18,6 +19,8 @@ class App extends Component {
           <MidHeader />
           <Route exact path='/' render={() => <HomePage />} />
           <Route exact path='/contact-form' render={() => <ContactForm />} />
+          <Route exact path='/branches' render={() => <Branches />} />
+
 
         </div>
       </Router>

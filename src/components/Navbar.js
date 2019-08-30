@@ -14,7 +14,9 @@ class Navbar extends Component {
                 </Link>
                 <div className="navText">Products</div>
                 <div className="navText">Shop</div>
-                <div className="navText">Stores</div>
+                <Link to="/branches">
+                <div className="navText">Branches</div>
+                </Link>
                 <div className="navText">About Us</div>
 
             </div>

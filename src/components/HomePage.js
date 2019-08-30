@@ -28,16 +28,11 @@ const slideResize = require("../images/rsz_sale-01.png")
 const items = [
     {
         src: "https://i.imgur.com/VRkLj85.png",
-        altText: 'Slide 1',
-        caption: 'Slide 1'
     },
     {
         src: "https://i.imgur.com/jDiYpKY.jpg",
-        altText: 'Slide 2',
-        caption: 'Slide 2'
     }
 ];
-
 
 
 
