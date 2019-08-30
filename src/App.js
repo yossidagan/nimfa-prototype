@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { observer } from "mobx-react"
-import Header from './components/Header';
+import TopHeader from './components/TopHeader';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
-import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import ContactForm from './components/ContactForm';
+import MidHeader from './components/MidHeader';
 
 @observer
 class App extends Component {
@@ -14,8 +14,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header />
-          <Navbar />
+          <TopHeader />
+          <MidHeader />
           <Route exact path='/' render={() => <HomePage />} />
           <Route exact path='/contact-form' render={() => <ContactForm />} />
 

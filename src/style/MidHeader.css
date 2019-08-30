@@ -1,0 +1,40 @@
+
+#mid-header {
+    display: grid ;
+    margin-top: 2%;
+    grid-template-columns: 3fr 6fr
+}
+
+
+.logo {
+    align-self: center ;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  
+    #mid-header {
+        display: grid ;
+        /* margin-top: 2%; */
+grid-template-areas: 
+" l l l"
+" n n n"
+    }
+
+    .logo {
+        /* display: none ; */
+        grid-area: l ;
+        justify-self: center ;
+        margin: 5%;
+    }
+    #navbar {
+        grid-area: n ;
+        font-size: 60%;
+        justify-items: center ;
+    }
+    
+}
+

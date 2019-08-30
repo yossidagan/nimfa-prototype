@@ -1,7 +1,7 @@
 #navbar {
     display: grid;
     margin-top: 3%;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 2fr
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
 }
 
 .navText {
@@ -13,13 +13,11 @@
     font-weight: bolder;
 }
 
-.logo {
-    height: 40%;
-    margin-left: 5%;
-}
 
 .search {
     height: 80%;
     width: 45%
 }
+
+
 
