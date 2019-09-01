@@ -1,9 +1,0 @@
-#branches {
-    display: grid ;
-    grid-template-rows: 1fr 1fr ;
-    /* grid-gap: 50% */
-}
-
-.pt-branch {
-    margin-top: 90%;
-}

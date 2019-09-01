@@ -1,11 +1,12 @@
 #navbar {
     display: grid;
     margin-top: 3%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
+    /* display: inline-block; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 }
 
 .navText {
-    font-size: 80%;
+    font-size: 100%;
     font-family: "Montserrat";
     color: rgb(36, 37, 37);
     text-transform: uppercase;
@@ -19,5 +20,39 @@
     width: 45%
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content div {
+    color: rgb(168, 47, 47);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-content a {
+    padding: 3%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
