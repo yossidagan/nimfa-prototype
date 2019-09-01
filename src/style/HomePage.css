@@ -1,13 +1,20 @@
 .custom-tag {
-    max-width: 90%;
+  
+    max-width: 80%;
     margin-top: 5%;
+    margin-left: 8%;
 }
 
 .carousel-img {
+
     width: 100%;
     margin-left: 5%;
-}
+    box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.71)
 
+
+
+}
+  
 .button {
     margin-top: 3%;
     position: relative;
@@ -17,7 +24,6 @@
 
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
     position: absolute;
     color: rgb(87, 81, 83);
     top: 50%;

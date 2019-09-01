@@ -18,6 +18,7 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
+import Welcome from './Welcome';
 
 const button = require("../images/button-01.png")
 
@@ -104,6 +105,7 @@ class HomePage extends Component {
 
         return (
             <div id="home-page">
+                <Welcome />
                 <Carousel
                     activeIndex={activeIndex}
                     next={this.next}
@@ -115,11 +117,11 @@ class HomePage extends Component {
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
                 <Link to="/contact-form">
-                <div className="button">
-                    <img src={button} />
-                    <h4>LEAVE DETAILS</h4>
+                    <div className="button">
+                        <img src={button} />
+                        <h4>LEAVE DETAILS</h4>
 
-                </div>
+                    </div>
                 </Link>
             </div>
         );

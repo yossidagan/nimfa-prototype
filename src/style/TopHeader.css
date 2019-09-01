@@ -6,21 +6,14 @@
     height: 45px;
 }
 
-.register {
+.topText {
     color: #a09898;
     align-self: center;
     justify-self: center;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 600;
 }
 
-.signIn {
-    color: #a09898;
-    align-self: center;
-    justify-self: center;
-    font-size: 80%;
-    font-weight: 600;
-}
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
     .topHeader {

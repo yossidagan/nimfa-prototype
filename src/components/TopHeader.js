@@ -7,8 +7,8 @@ class TopHeader extends Component {
   render() {
     return (
       <div className="topHeader">
-      <span className="register">Register</span>
-      <span className="signIn">Sign In</span>
+      <span className="topText">Register</span>
+      <span className="topText">Sign In</span>
     </div>
     );
   }
