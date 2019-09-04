@@ -11,16 +11,18 @@ class Navbar extends Component {
                 <Link to="/">
                     <div className="navText">Home</div>
                 </Link>
-                <div className="navText">Products</div>
+                <Link to="/our-curtains" >
+                    <div className="navText">Our Curtains</div>
+                </Link>
                 <div className="navText">Shop</div>
                 <div className="navText dropdown">Branches
                 <div class="dropdown-content">
                         <Link to="/pt-branch" >
                             <div className="branch">Petach Tikva</div>
-                            
+
                         </Link>
                         <Link to="/oy-branch" >
-                        <div className="branch">Or Yehuda</div>
+                            <div className="branch">Or Yehuda</div>
                         </Link>
                     </div>  </div>
 

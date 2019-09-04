@@ -11,6 +11,7 @@ import Slider from "react-slick";
 
 import "../style/HomePage.css"
 
+
 import {
     Carousel,
     CarouselItem,
@@ -19,12 +20,14 @@ import {
     CarouselCaption
 } from 'reactstrap';
 import Welcome from './Welcome';
+import CurtainCard from './CurtainCard';
+import CurtainCards from './CurtainCards';
 
 const button = require("../images/button-01.png")
-
 const slide01 = require("../images/img-01.JPG")
 const slide02 = require("../images/img-02.JPG")
 const slideResize = require("../images/rsz_sale-01.png")
+
 
 const items = [
     {
@@ -123,6 +126,7 @@ class HomePage extends Component {
 
                     </div>
                 </Link>
+                <CurtainCards />
             </div>
         );
     }

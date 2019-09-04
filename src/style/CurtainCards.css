@@ -1,0 +1,9 @@
+#curtain-cards {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center ;
+    justify-content: center ;
+    justify-self: center ;
+    margin-top: 4%;
+    padding-bottom: 10%
+}

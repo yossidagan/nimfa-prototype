@@ -8,6 +8,7 @@ import ContactForm from './components/ContactForm';
 import MidHeader from './components/MidHeader';
 import PTBranch from './components/PT-Branch';
 import OYBranch from './components/OY-Branch';
+import OurCurtains from './components/OurCurtains';
 
 @observer
 class App extends Component {
@@ -22,6 +23,8 @@ class App extends Component {
           <Route exact path='/contact-form' render={() => <ContactForm />} />
           <Route exact path='/pt-branch' render={() => <PTBranch />} />
           <Route exact path='/oy-branch' render={() => <OYBranch />} />
+          <Route exact path='/our-curtains' render={() => <OurCurtains />} />
+
 
 
 
