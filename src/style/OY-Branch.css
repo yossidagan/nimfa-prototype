@@ -14,8 +14,13 @@
   color: black;
 }
 
-.h4 {
-  font-family: 'Montserrat', sans-serif;
+h2, h3 {
+justify-self: center ;
+}
+
+
+h4 {
+  /* font-family: 'Montserrat', sans-serif; */
   position: absolute;
   color: rgb(87, 81, 83);
   top: 50%;

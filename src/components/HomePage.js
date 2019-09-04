@@ -122,7 +122,7 @@ class HomePage extends Component {
                 <Link to="/contact-form">
                     <div className="button">
                         <img src={button} />
-                        <h4>LEAVE DETAILS</h4>
+                        <h4>השאר פרטים</h4>
 
                     </div>
                 </Link>

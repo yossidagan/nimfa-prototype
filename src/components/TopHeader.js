@@ -7,8 +7,8 @@ class TopHeader extends Component {
   render() {
     return (
       <div className="topHeader">
-      <span className="topText">Register</span>
-      <span className="topText">Sign In</span>
+      <span className="topText">הרשמה</span>
+      <span className="topText">כניסה</span>
     </div>
     );
   }

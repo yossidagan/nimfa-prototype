@@ -19,17 +19,17 @@ class PTBranch extends Component {
         return (
             <div id="pt">
                 <div className="details">
-                    <h2>Petach Tikva Branch</h2>
-                    <h3>Address : Ichilov 14</h3>
-                    <h3>Telephone : 03-9342799</h3>
-                    <h3>Mobile : 054-7764414</h3>
+                    <h2>סניף פתח תקווה</h2>
+                    <h3>כתובת : איכילוב 14</h3>
+                    <h3>טלפון : 03-9342799</h3>
+                    <h3>נייד : 054-7764414</h3>
                 </div>
 
                 <a href="https://www.waze.com/ul?ll=32.08725560%2C34.88392260&navigate=yes">
 
                     <div className="button">
                         <img src={button} />
-                        <h4>OPEN IN WAZE</h4>
+                        <h4>WAZE פתח ב</h4>
                         <i class="fab fa-waze"></i>
                     </div>
                     </a>

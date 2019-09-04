@@ -39,14 +39,14 @@ class ContactForm extends Component {
     render() {
         return (
             <div id="contact-form">
-                <div className="headline">YOUR DETAILS</div>
-                <input type="text" name="name" placeholder="Name" onChange={this.handleInput} />
-                <input type="text" name="surName" placeholder="Surname" onChange={this.handleInput} />
-                <input type="text" name="city" placeholder="City" onChange={this.handleInput} />
-                <input type="number" name="phone" placeholder="Mobile Number" onChange={this.handleInput} />
+                <div className="headline">הפרטים שלך</div>
+                <input type="text" name="name" placeholder="שם" onChange={this.handleInput} />
+                <input type="text" name="surName" placeholder="משפחה" onChange={this.handleInput} />
+                <input type="text" name="city" placeholder="יישוב" onChange={this.handleInput} />
+                <input type="" name="phone" placeholder="טלפון" onChange={this.handleInput} />
                 <div className="button" onClick={this.sendDetails}>
                     <img src={button} />
-                    <h4>LEAVE DETAILS</h4>
+                    <h4>השאר פרטים</h4>
 
                 </div>
 

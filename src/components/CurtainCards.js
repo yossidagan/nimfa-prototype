@@ -11,20 +11,20 @@ const cardImages = [
     {
         img: lightScreenImg,
         type: "large-size",
-        text1 : "LIGHTSCREEN SHADE CURTAIN",
-        text2 : "SHADE, STYLE, AFFORDABLE"
+        text1 : "וילון לייט סקרין מודרני",
+        text2 : "מראה מרענן ויוקרתי למטבח "
     },
     {
         img: salonImg,
         type: "medium-size",
-        text1 : "MODERN LIVING ROOMS",
-        text2 : "PERFECT FIT FOR YOUR TASTE"
+        text1 : "וילון לסלון ",
+        text2 : "מאיר את הבית בצורה שלא צפית"
     },
     {
         img: romanShadeImg,
         type: "large-size",
-        text1 : "ROMAN SHADE",
-        text2 : "CLASSY, DIVERSE PAATERNS"
+        text1 : "וילון רומאי",
+        text2 : "מראה קלאסי ומגוון לכל חלל"
     },
    
 ]

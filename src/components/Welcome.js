@@ -9,8 +9,8 @@ class Welcome extends Component {
             <div id="welcome">
                 <img className="welcome-img" src={welcomeImage} alt=""/>
                 <div className="layer"></div>
-                <div className="text1">WELCOME TO NIMFA CURTAINS</div>
-                <div className="text2">QUALITY SINCE 2004</div>
+                <div className="text1">ברוכים הבאים לוילונות נימפה</div>
+                <div className="text2">איכות משנת 2004</div>
 
             </div>
         );

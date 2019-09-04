@@ -22,16 +22,16 @@ class OYBranch extends Component {
         return (
             <div className="oy">
                 <div className="details">
-                    <h2>Or Yehuda Branch</h2>
-                    <h3>Address : Ha'Melacha 6</h3>
-                    <h3>Telephone : 03-6344234</h3>
-                    <h3>Mobile : 054-3084414</h3>
+                    <h2>סניף אור יהודה</h2>
+                    <h3>כתובת : המלאכה 6</h3>
+                    <h3>טלפוו : 03-6344234</h3>
+                    <h3>נייד : 054-3084414</h3>
                 </div>
                 <a href="https://www.waze.com/ul?ll=32.02183300%2C34.86212170&navigate=yes">
 
                     <div className="button">
                         <img src={button} />
-                        <h4>OPEN IN WAZE</h4>
+                        <h4>WAZE פתח ב</h4>
                         <i class="fab fa-waze"></i>
 
                     </div>

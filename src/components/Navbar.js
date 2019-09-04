@@ -9,24 +9,24 @@ class Navbar extends Component {
             <div id="navbar">
 
                 <Link to="/">
-                    <div className="navText">Home</div>
+                    <div className="navText">בית</div>
                 </Link>
                 <Link to="/our-curtains" >
-                    <div className="navText">Our Curtains</div>
+                    <div className="navText">הוילונות שלנו</div>
                 </Link>
-                <div className="navText">Shop</div>
-                <div className="navText dropdown">Branches
+                <div className="navText">חנות</div>
+                <div className="navText dropdown">סניפים
                 <div class="dropdown-content">
                         <Link to="/pt-branch" >
-                            <div className="branch">Petach Tikva</div>
+                            <div className="branch">פתח תקווה</div>
 
                         </Link>
                         <Link to="/oy-branch" >
-                            <div className="branch">Or Yehuda</div>
+                            <div className="branch">אור יהודה</div>
                         </Link>
                     </div>  </div>
 
-                <div className="navText">About Us</div>
+                <div className="navText">אודותינו</div>
 
             </div>
         );
